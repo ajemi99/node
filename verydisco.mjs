@@ -20,7 +20,7 @@ for (let i = 0; i < w.length; i++) {
     } 
  }
  let str = arr.join(' ')   
-    console.log(str);
+    
 }else{
     if (word.length % 2 ==0){
         let ele = word.slice(-word.length/2) + word.slice(0,word.length/2)
@@ -31,7 +31,7 @@ for (let i = 0; i < w.length; i++) {
        let  el =  word.slice(Math.ceil(-(word.length/2))) + word.slice(0,Math.ceil(word.length/2))
        str = el
     } 
-    console.log(str);
+   
     
  }
 
